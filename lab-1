@@ -1,0 +1,22 @@
+//César Freeman	
+//8-847-2137
+
+import java.util.*;
+
+public class Qfuncione {
+
+	
+	public static void main(String[] args) {
+		try{
+		Scanner r=new Scanner(System.in);
+		Integer n;
+		System.out.println("introduce un numero");
+		n=r.nextInt();
+		System.out.println("numero:  "+n);
+		}catch (InputMismatchException exception)
+	    {
+	        System.out.println("introduce un numero entero");
+	    }
+	}
+
+}
